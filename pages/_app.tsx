@@ -1,8 +1,12 @@
 import { MantineProvider } from "@mantine/core";
 import { NotificationsProvider } from "@mantine/notifications";
-import type { AppProps } from "next/app";
+import type { AppProps, CustomAppPage } from "next/app";
 
-const App = ({ Component, pageProps }: AppProps) => {
+const App: CustomAppPage = ({ Component, pageProps }: AppProps) => {
+  // const getLayout = Component.getLayout || ((page) => {
+  //   return page
+  // })
+
   return (
     <MantineProvider withGlobalStyles withNormalizeCSS>
       <NotificationsProvider>
