@@ -3,6 +3,7 @@ import {
   Button,
   Checkbox,
   Container,
+  Divider,
   Group,
   Paper,
   PasswordInput,
@@ -10,6 +11,7 @@ import {
   TextInput,
   Title,
 } from "@mantine/core";
+import { GoogleButton, TwitterButton } from "components/SocialButton/SocialButton";
 import { AuthLayout } from "layout";
 import { getPath } from "lib/const";
 import type { CustomNextPage } from "next";
@@ -43,6 +45,11 @@ const SignIn: CustomNextPage = () => {
       </Text>
 
       <Paper shadow="md" radius="md" p={30} mt={30} withBorder>
+        <Group grow mb="md" mt="md">
+          <GoogleButton radius="xl">Googleでログイン</GoogleButton>
+          <TwitterButton radius="xl">Twitterでログイン</TwitterButton>
+        </Group>
+        <Divider label="Or continue with email" labelPosition="center" my="lg" />
         <TextInput label="メールアドレス" placeholder="test@example.com" withAsterisk />
         <PasswordInput label="パスワード" placeholder="Your Password" withAsterisk mt="md" />
         <Group position="apart" mt="md">
