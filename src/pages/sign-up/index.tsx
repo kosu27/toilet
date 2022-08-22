@@ -9,6 +9,7 @@ import {
   TextInput,
   Title,
 } from "@mantine/core";
+import { AuthLayout } from "layout";
 import { getPath } from "lib/const";
 import type { CustomNextPage } from "next";
 import Link from "next/link";
@@ -49,5 +50,7 @@ const SignUp: CustomNextPage = () => {
     </Container>
   );
 };
+
+SignUp.getLayout = AuthLayout;
 
 export default SignUp;
