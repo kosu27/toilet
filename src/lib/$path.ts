@@ -8,6 +8,9 @@ export const pagesPath = {
   "notification": {
     $url: (url?: { hash?: string }) => ({ pathname: '/notification' as const, hash: url?.hash })
   },
+  "settings": {
+    $url: (url?: { hash?: string }) => ({ pathname: '/settings' as const, hash: url?.hash })
+  },
   "sign_in": {
     $url: (url?: { hash?: string }) => ({ pathname: '/sign-in' as const, hash: url?.hash })
   },
