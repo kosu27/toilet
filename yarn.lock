@@ -738,8 +738,7 @@
   resolved "https://registry.yarnpkg.com/@mantine/ds/-/ds-5.2.3.tgz#cdd2a9bb73ce60758dd8bbeb872490252a708335"
   integrity sha512-suVxOqYSJOPOfNK8SUlcDopYMjO9jTstBWlLvT9PtDbnFoF83D4qRjxyMFt5K/+SfGyvhb/L+0FvWWW9d3jtcw==
   dependencies:
-    "@mantine/utils" "5.2.3"
-
+"@mantine/utils" "5.2.3"
 "@mantine/hooks@^5.2.0":
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-5.2.0.tgz#ca6e528f13bf3a3dd367c8176e977a7cd9ce2381"
