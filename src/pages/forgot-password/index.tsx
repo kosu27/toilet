@@ -12,10 +12,9 @@ import {
   Title,
 } from "@mantine/core";
 import { IconArrowLeft } from "@tabler/icons";
-import { AuthLayout } from "layout";
 import { getPath } from "lib/const";
-import type { CustomNextPage } from "next";
 import Link from "next/link";
+import type { FC } from "react";
 
 const useStyles = createStyles((theme) => {
   return {
@@ -38,7 +37,7 @@ const useStyles = createStyles((theme) => {
   };
 });
 
-const ForgotPassword: CustomNextPage = () => {
+const ForgotPassword: FC = () => {
   const { classes } = useStyles();
   const handleClick = () => {
     alert("Click");
@@ -72,7 +71,5 @@ const ForgotPassword: CustomNextPage = () => {
     </Container>
   );
 };
-
-ForgotPassword.getLayout = AuthLayout;
 
 export default ForgotPassword;
