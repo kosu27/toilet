@@ -12,13 +12,12 @@ import {
   Title,
 } from "@mantine/core";
 import { GoogleButton, TwitterButton } from "components/SocialButton/SocialButton";
-import { AuthLayout } from "layout";
 import { getPath } from "lib/const";
-import type { CustomNextPage } from "next";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import type { FC } from "react";
 
-const SignIn: CustomNextPage = () => {
+const SignIn: FC = () => {
   const router = useRouter();
   const signIn = () => {
     router.push(getPath("INDEX"));
@@ -65,7 +64,5 @@ const SignIn: CustomNextPage = () => {
     </Container>
   );
 };
-
-SignIn.getLayout = AuthLayout;
 
 export default SignIn;
