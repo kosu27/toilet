@@ -733,7 +733,7 @@
     "@radix-ui/react-scroll-area" "1.0.0"
     react-textarea-autosize "8.3.4"
 
-"@mantine/ds@^5.2.3":
+"@mantine/ds@5.2.3":
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/@mantine/ds/-/ds-5.2.3.tgz#cdd2a9bb73ce60758dd8bbeb872490252a708335"
   integrity sha512-suVxOqYSJOPOfNK8SUlcDopYMjO9jTstBWlLvT9PtDbnFoF83D4qRjxyMFt5K/+SfGyvhb/L+0FvWWW9d3jtcw==
