@@ -3,10 +3,9 @@ import { showNotification } from "@mantine/notifications";
 import { PageContainer } from "components/PageContainer";
 import { PageContent } from "components/PageContent";
 import { DashboardLayout } from "layout/DashboardLayout";
-// import { Button } from "lib/mantine";
 import type { CustomNextPage } from "next";
 
-export const Index: CustomNextPage = () => {
+const Index: CustomNextPage = () => {
   return (
     <PageContainer title="ホーム" fluid>
       <Stack spacing="xl">
@@ -32,10 +31,10 @@ const SampleTable = () => {
     <Table>
       <thead>
         <tr>
-          <th>Element Position</th>
-          <th>Element Name</th>
+          <th>Element position</th>
+          <th>Element name</th>
           <th>Symbol</th>
-          <th>Atomic ass</th>
+          <th>Atomic mass</th>
         </tr>
       </thead>
       <tbody>

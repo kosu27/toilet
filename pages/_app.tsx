@@ -1,18 +1,23 @@
-import { MantineProvider } from "@mantine/core";
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { NotificationsProvider } from "@mantine/notifications";
-import type { AppProps, CustomAppPage } from "next/app";
+import { AppMantineProvider, GlobalStyleProvider } from "lib/mantine";
+import type { CustomAppPage } from "next/app";
 
-const App: CustomAppPage = ({ Component, pageProps }: AppProps) => {
-  // const getLayout = Component.getLayout || ((page) => {
-  //   return page
-  // })
+const App: CustomAppPage = ({ Component, pageProps }) => {
+  const getLayout =
+    Component.getLayout ||
+    ((page) => {
+      return page;
+    });
 
   return (
-    <MantineProvider withGlobalStyles withNormalizeCSS>
-      <NotificationsProvider>
-        <Component {...pageProps} />
-      </NotificationsProvider>
-    </MantineProvider>
+    <GlobalStyleProvider>
+      <AppMantineProvider>
+        <NotificationsProvider>
+          <Component {...pageProps} />
+        </NotificationsProvider>
+      </AppMantineProvider>
+    </GlobalStyleProvider>
   );
 };
 
