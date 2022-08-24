@@ -34,11 +34,11 @@ export const DashboardLayout: CustomLayout = (page) => {
       }}
       navbar={
         <>
-          <MediaQuery smallerThan="sm" styles={{ dislplay: "none" }}>
+          <MediaQuery smallerThan="sm" styles={{ display: "none" }}>
             <SideNav />
           </MediaQuery>
           <MediaQuery largerThan="sm" styles={{ display: "none" }}>
-            <DrawerNav opened={opened} handleClose={handlers.open} />
+            <DrawerNav opened={opened} handleClose={handlers.close} />
           </MediaQuery>
         </>
       }
@@ -46,7 +46,7 @@ export const DashboardLayout: CustomLayout = (page) => {
       <Header
         left={
           <MediaQuery largerThan="sm" styles={{ display: "none" }}>
-            <ActionIcon variant="outline" radius="xl" size={40} onClick={handlers.close}>
+            <ActionIcon variant="outline" radius="xl" size={40} onClick={handlers.open}>
               <IconMenu2 />
             </ActionIcon>
           </MediaQuery>
@@ -62,6 +62,7 @@ export const DashboardLayout: CustomLayout = (page) => {
 const DrawerNav: FC<{ opened: boolean; handleClose: () => void }> = ({ handleClose, opened }) => {
   const router = useRouter();
 
+  // SideNav のメニュークリックで Drawer を閉じる処理
   useEffect(() => {
     router.events.on("routeChangeStart", handleClose);
     return () => {

@@ -21,7 +21,8 @@ const useStyles = createStyles<string, { collapsed?: boolean }>((theme, params, 
     navbar: {
       position: "sticky",
       top: 0,
-      width: params?.collapsed ? "width 0.1s linear" : "none",
+      width: params?.collapsed ? 81 : 264,
+      transition: params?.collapsed ? "width 0.1s linear" : "none",
     },
 
     header: {
