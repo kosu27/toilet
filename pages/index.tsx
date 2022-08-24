@@ -1,8 +1,11 @@
-import type { NextPage } from "next";
-import { Index } from "pages/index";
+import { DashboardLayout } from "layout/DashboardLayout";
+import type { CustomNextPage } from "next";
+import Index from "pages/index";
 
-const IndexPage: NextPage = () => {
+const IndexPage: CustomNextPage = () => {
   return <Index />;
 };
+
+IndexPage.getLayout = DashboardLayout;
 
 export default IndexPage;
