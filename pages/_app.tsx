@@ -1,14 +1,22 @@
-import { MantineProvider } from "@mantine/core";
-import { NotificationsProvider } from "@mantine/notifications";
-import type { AppProps } from "next/app";
+import "../src/lib/tailwind.css";
 
-const App = ({ Component, pageProps }: AppProps) => {
+import { NotificationsProvider } from "@mantine/notifications";
+import { AppMantineProvider, GlobalStyleProvider } from "lib/mantine";
+import type { CustomAppPage } from "next/app";
+
+const App: CustomAppPage = ({ Component, pageProps }) => {
+  const getLayout =
+    Component.getLayout ||
+    ((page) => {
+      return page;
+    });
+
   return (
-    <MantineProvider withGlobalStyles withNormalizeCSS>
-      <NotificationsProvider>
-        <Component {...pageProps} />
-      </NotificationsProvider>
-    </MantineProvider>
+    <GlobalStyleProvider>
+      <AppMantineProvider>
+        <NotificationsProvider>{getLayout(<Component {...pageProps} />)}</NotificationsProvider>
+      </AppMantineProvider>
+    </GlobalStyleProvider>
   );
 };
 

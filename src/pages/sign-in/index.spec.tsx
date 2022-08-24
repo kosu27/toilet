@@ -3,12 +3,12 @@
  */
 
 import { render, screen } from "@testing-library/react";
-import { About } from "pages/about";
+import SignIn from "pages/sign-in";
 
-describe("About", () => {
+describe("Index", () => {
   it("renders a heading", () => {
-    render(<About />);
-    const heading = screen.getByRole("heading", { name: /About/i });
+    render(<SignIn />);
+    const heading = screen.getByRole("heading", { name: /SignIn/i });
     expect(heading).toBeInTheDocument();
   });
 });
