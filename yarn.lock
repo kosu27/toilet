@@ -738,16 +738,17 @@
   resolved "https://registry.yarnpkg.com/@mantine/ds/-/ds-5.2.3.tgz#cdd2a9bb73ce60758dd8bbeb872490252a708335"
   integrity sha512-suVxOqYSJOPOfNK8SUlcDopYMjO9jTstBWlLvT9PtDbnFoF83D4qRjxyMFt5K/+SfGyvhb/L+0FvWWW9d3jtcw==
   dependencies:
-"@mantine/utils" "5.2.3"
-"@mantine/hooks@^5.2.3":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-5.2.0.tgz#ca6e528f13bf3a3dd367c8176e977a7cd9ce2381"
-  integrity sha512-9pBlt12lxwzTOWUmigTlcbkW9eEHOYODALEXc65F0uMkbdYpjfMq2rJ0Pp4mEoQkXtl9m77vbD1b3RLrncVpfg==
+    "@mantine/utils" "5.2.3"
 
-"@mantine/next@^5.2.3":
+"@mantine/hooks@5.2.3":
   version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-5.2.0.tgz#1008a9bb99b049e47be4416b04567a481b7ed02f"
-  integrity sha512-KUzfpram2QeVTGchLld2rXFch6C3OUCIRb7FJDZcBcSplbBViPJWdRx5jyK7exqxrtEUwj+exDHCD5vCw9xu7g==
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-5.2.3.tgz#76a57141665ee0fd97c436e44b8f252755a2e502"
+  integrity sha512-8JuNVnC9Df1MsbQLbRxp6PakwakM2O+P6zXYYfFQNUmsHqBzvU8u7fzeiRVCefW7rP3o1+39Qpm3pkQUz+T90w==
+
+"@mantine/next@5.2.3":
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-5.2.3.tgz#2bc11e05f079d462b4936e2ce71fdd031b7725cb"
+  integrity sha512-HURlXgNo0Cfgrx5EV7lnhV9mp23L02ppXltfkHRbpbraPCJbXMLKq5P/vTPy3O9saBTzjA+Tt43MD/nOOIflcA==
   dependencies:
     "@mantine/ssr" "5.2.3"
     "@mantine/styles" "5.2.3"
@@ -775,11 +776,6 @@
   dependencies:
     clsx "1.1.1"
     csstype "3.0.9"
-
-"@mantine/utils@5.2.3":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@mantine/utils/-/utils-5.2.3.tgz#8be784d66c3e0cd9f72b6b9deed22a67fbeda35f"
-  integrity sha512-5JOKj8UHaqZmJeciDWQXlbJCNYGKzUrKONMT1kmttbxB6PmGFN8Vy/kTQoSEe09g05S8E79/xLCYGGL8s1N5Yg==
 
 "@mantine/utils@5.2.3":
   version "5.2.3"
@@ -1012,7 +1008,6 @@
   integrity sha512-6JrF+fdUK2zbGpJIlN7G3v966PQjyx/dPt1T9km2wj+EUBqgrxCk3uX4Kct16MIm9gGxfKRcfax2hVf5jvlTzA==
   dependencies:
     tslib "^2.4.0"
-
 
 "@tabler/icons@1.86.0":
   version "1.86.0"

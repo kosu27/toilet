@@ -1,6 +1,6 @@
 import type { ButtonProps } from "@mantine/core";
 import { Button, Group } from "@mantine/core";
-import { TwitterIcon } from "@mantine/ds";
+import { IconBrandTwitter } from "@tabler/icons";
 import { GoogleIcon } from "components/SocialButton/GoogleIcon";
 
 export const GoogleButton = (props: ButtonProps) => {
@@ -11,7 +11,7 @@ export const TwitterButton = (props: ButtonProps & React.ComponentPropsWithoutRe
   return (
     <Button
       component="a"
-      leftIcon={<TwitterIcon size={16} color="#00ACEE" />}
+      leftIcon={<IconBrandTwitter size={16} color="#00ACEE" />}
       variant="default"
       {...props}
     />
