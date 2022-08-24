@@ -1,4 +1,5 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+import "../src/lib/tailwind.css";
+
 import { NotificationsProvider } from "@mantine/notifications";
 import { AppMantineProvider, GlobalStyleProvider } from "lib/mantine";
 import type { CustomAppPage } from "next/app";
@@ -13,9 +14,7 @@ const App: CustomAppPage = ({ Component, pageProps }) => {
   return (
     <GlobalStyleProvider>
       <AppMantineProvider>
-        <NotificationsProvider>
-          <Component {...pageProps} />
-        </NotificationsProvider>
+        <NotificationsProvider>{getLayout(<Component {...pageProps} />)}</NotificationsProvider>
       </AppMantineProvider>
     </GlobalStyleProvider>
   );

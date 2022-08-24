@@ -2,10 +2,9 @@ import { Button, Stack, Table } from "@mantine/core";
 import { showNotification } from "@mantine/notifications";
 import { PageContainer } from "components/PageContainer";
 import { PageContent } from "components/PageContent";
-import { DashboardLayout } from "layout/DashboardLayout";
-import type { CustomNextPage } from "next";
+import type { FC } from "react";
 
-const Index: CustomNextPage = () => {
+const Index: FC = () => {
   return (
     <PageContainer title="ホーム" fluid>
       <Stack spacing="xl">
@@ -58,7 +57,5 @@ const SampleTable = () => {
     </Table>
   );
 };
-
-Index.getLayout = DashboardLayout;
 
 export default Index;
