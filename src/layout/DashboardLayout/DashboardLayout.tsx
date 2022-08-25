@@ -20,6 +20,11 @@ const SideNav = dynamic(async () => {
   return SideNav;
 });
 
+const Footer = dynamic(async () => {
+  const { Footer } = await import("./Footer");
+  return Footer;
+});
+
 export const DashboardLayout: CustomLayout = (page) => {
   const [opened, handlers] = useDisclosure(false);
 
@@ -42,6 +47,7 @@ export const DashboardLayout: CustomLayout = (page) => {
           </MediaQuery>
         </>
       }
+      footer={<Footer left />}
     >
       <Header
         left={
@@ -55,6 +61,7 @@ export const DashboardLayout: CustomLayout = (page) => {
       <Box py="xl" px="md">
         <LayoutErrorBoundary>{page}</LayoutErrorBoundary>
       </Box>
+      {/* <Footer left /> */}
     </AppShell>
   );
 };
