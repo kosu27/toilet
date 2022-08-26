@@ -61,7 +61,6 @@ export const DashboardLayout: CustomLayout = (page) => {
       <Box py="xl" px="md">
         <LayoutErrorBoundary>{page}</LayoutErrorBoundary>
       </Box>
-      {/* <Footer left /> */}
     </AppShell>
   );
 };
