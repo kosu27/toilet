@@ -1040,10 +1040,10 @@
   dependencies:
     tslib "^2.4.0"
 
-"@tabler/icons@1.88.0":
-  version "1.88.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.88.0.tgz#11c95a4f7a40408ac5b1372ed87a5d7c2e451010"
-  integrity sha512-w3kPW16mDIiboBE+2M6pPIsLkebNYhjnrRphiuDAfz+fNs4QbF2NRm3cyk0xzajEhOCg00ZYLBHG1AmzPlZroA==
+"@tabler/icons@1.90.0":
+  version "1.90.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.90.0.tgz#c87fc4af5a6fe7f6a6bc89595aaa652a77e7d857"
+  integrity sha512-1HSpd5jMrZMwOrfuxSAGjPVb4a1RWQYuPoeSXle1kOeCEou4WCbvxNHNzuz39Glr9cQz50LwJ/voH9Yx8+iqqQ==
 
 "@tailwindcss/forms@0.5.2":
   version "0.5.2"
