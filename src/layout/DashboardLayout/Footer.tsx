@@ -38,7 +38,7 @@ export const Footer: FC<{ left: ReactNode }> = ({ left }) => {
       }}
     >
       <Group position="apart">
-        <Text>© 2022 Kosu </Text>
+        <Text>© 2022 Kosu Portfolio </Text>
         <Group position="right" spacing="lg" noWrap>
           {left}
           {items}
