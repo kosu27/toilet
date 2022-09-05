@@ -9,6 +9,7 @@ import {
   IconSettings,
   IconTrash,
 } from "@tabler/icons";
+import { ColorSchemeButton } from "components/ColorSchemeButton";
 import { getPath } from "lib/const";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -31,6 +32,7 @@ export const Header: FC<{ left: ReactNode }> = ({ left }) => {
         <SearchForm />
         <Notification />
         <UserMenu />
+        <ColorSchemeButton />
       </Group>
     </Box>
   );
@@ -45,7 +47,7 @@ const SearchForm: FC = () => {
       icon={<IconSearch size={18} />}
       styles={{
         root: { flexGrow: 1 },
-        input: { border: 0, backgroundColor: "transparent" },
+        // input: { border: 0, backgroundColor: "transparent" },
       }}
       onChange={(value) => {
         console.log(value);
