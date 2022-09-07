@@ -18,7 +18,7 @@ export const ColorSchemeButton: FC = () => {
         "&:not(:disabled):active": { transform: "none" },
       }}
     >
-      {dark ? <IconSun size={18} /> : <IconMoon size={18} />}
+      {dark ? <IconSun size={24} /> : <IconMoon size={24} />}
     </ActionIcon>
   );
 };
