@@ -31,7 +31,7 @@
     "@emotion/server": "11.10.0",
     "@mantine/core": "5.3.3",
     "@mantine/ds": "5.3.3",
-    "@mantine/hooks": "5.3.2",
+    "@mantine/hooks": "5.3.3",
     "@mantine/next": "5.3.2",
     "@mantine/notifications": "5.3.2",
     "@tabler/icons": "1.96.0",
