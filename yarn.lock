@@ -773,13 +773,13 @@
   resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-5.5.0.tgz#2007960b0f915d3db3b49b3bb63c8caee38ca614"
   integrity sha512-Z7He/2beF+SWp4a78oDLJrZFN+hVDLtxeCxRoKQAhpABOXA0Mm9Km4CZKf5Ekh4/RpS0BfRkNmQimckTN2GcJw==
 
-"@mantine/next@5.4.2":
-  version "5.4.2"
-  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-5.4.2.tgz#8cdb9a0feccf3e811ae22f3e7a4fccc849ba44aa"
-  integrity sha512-RbgVF5s9D4DKLIEd1M4zetkDtqWbUGzZU+I93pixLJN8tywNiPwXa/fqg//qrEBVqSHLKnv1j60Tm1z2LtEMbQ==
+"@mantine/next@5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-5.5.0.tgz#0dcffc411b766b685a4d993e1cd7ef861ffb99f4"
+  integrity sha512-Av69n27Drnra/C/4aJACb6xTAQT3ZbJ2rlWNo5NTpaRHlykSmV09n8Aimu3vJKZrhA5zmgN7tWYP45htZWookA==
   dependencies:
-    "@mantine/ssr" "5.4.2"
-    "@mantine/styles" "5.4.2"
+    "@mantine/ssr" "5.5.0"
+    "@mantine/styles" "5.5.0"
 
 "@mantine/notifications@5.4.2":
   version "5.4.2"
@@ -789,21 +789,13 @@
     "@mantine/utils" "5.4.2"
     react-transition-group "4.4.2"
 
-"@mantine/ssr@5.4.2":
-  version "5.4.2"
-  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-5.4.2.tgz#823f8e128254cfe5e334c6a699700068a11831ce"
-  integrity sha512-RhPmFYQOLJkkHvKZV+J5LKxaYDICfmcE3e0ENIAdGTr5x00jDKCpqxZXMRPYJjYcrd0Yzq89eIgTrjvtJw8JNg==
+"@mantine/ssr@5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-5.5.0.tgz#906f61654257e35e5a05663e3df36153de8b4328"
+  integrity sha512-bK2LvMbute17fS9seMB0Dio9EXRcCZCXq5DYo1+pL7bXqaUljGSThm22UOmnk8hlJB80W+IaUBXBcCSDTFj3RA==
   dependencies:
-    "@mantine/styles" "5.4.2"
+    "@mantine/styles" "5.5.0"
     html-react-parser "1.4.12"
-
-"@mantine/styles@5.4.2":
-  version "5.4.2"
-  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-5.4.2.tgz#853c074cf482d95140eaa41a77fada932a1e5db0"
-  integrity sha512-+JxUlkvfj3hoxaVFLJx/p8SZ6OR/AW2fiMyn0PuLB/U50k6xr2YaR1G5KB0WqmpcKMFkom3jR/LsWTaVoy8+0g==
-  dependencies:
-    clsx "1.1.1"
-    csstype "3.0.9"
 
 "@mantine/styles@5.5.0":
   version "5.5.0"
