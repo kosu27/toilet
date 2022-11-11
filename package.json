@@ -35,7 +35,7 @@
     "@mantine/next": "5.7.1",
     "@mantine/notifications": "5.7.1",
     "@tabler/icons": "1.111.0",
-    "next": "13.0.2",
+    "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-error-boundary": "3.1.4"
@@ -57,7 +57,7 @@
     "@typescript-eslint/parser": "5.42.1",
     "autoprefixer": "10.4.13",
     "eslint": "8.27.0",
-    "eslint-config-next": "13.0.2",
+    "eslint-config-next": "13.0.3",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import-access": "1.0.1",
     "eslint-plugin-simple-import-sort": "8.0.0",
