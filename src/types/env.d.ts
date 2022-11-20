@@ -1,5 +1,5 @@
 declare namespace NodeJS {
   interface ProcessEnv {
-    readonly NEXT_PUBLIC_GOOGLE_MAPS_API_KEY: string;
+    readonly NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN: string;
   }
 }
