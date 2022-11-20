@@ -5,6 +5,9 @@ export const pagesPath = {
   "forgot_password": {
     $url: (url?: { hash?: string }) => ({ pathname: '/forgot-password' as const, hash: url?.hash })
   },
+  "map": {
+    $url: (url?: { hash?: string }) => ({ pathname: '/map' as const, hash: url?.hash })
+  },
   "notification": {
     $url: (url?: { hash?: string }) => ({ pathname: '/notification' as const, hash: url?.hash })
   },
