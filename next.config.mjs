@@ -7,6 +7,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   eslint: { dirs: ["src"] },
+  env: {
+    NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN: process.env.NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN,
+  },
 };
 
 export default nextConfig;

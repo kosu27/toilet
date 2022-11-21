@@ -1,4 +1,5 @@
 import "../src/lib/tailwind.css";
+import "mapbox-gl/dist/mapbox-gl.css";
 
 import { NotificationsProvider } from "@mantine/notifications";
 import { AppMantineProvider, GlobalStyleProvider } from "lib/mantine";
