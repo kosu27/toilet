@@ -26,7 +26,7 @@ export const AppMantineProvider: FC<{ children: ReactNode }> = ({ children }) =>
   ]);
   return (
     <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
-      <MantineProvider withGlobalStyles withNormalizeCSS theme={{ colorScheme }}>
+      <MantineProvider withGlobalStyles withNormalizeCSS theme={{ colorScheme: "light" }}>
         {children}
       </MantineProvider>
     </ColorSchemeProvider>
