@@ -21,7 +21,7 @@ export const Header = (props: Props) => {
     <>
       <header className="w-full bg-[#333333]">
         <div className="flex h-[70px] items-center justify-between px-5">
-          <p className="text-2xl font-bold text-white">Toilet APP</p>
+          <p className="text-[20px] font-bold text-white">Toilet APP</p>
           <button className="absolute left-14 sm:left-40" onClick={handleBack}>
             {/* {isClose ? <CgClose size={24} /> : <MdOutlineArrowBackIosNew size={24} />} */}
           </button>
