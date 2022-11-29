@@ -5,8 +5,8 @@ export const pagesPath = {
   "forgot_password": {
     $url: (url?: { hash?: string }) => ({ pathname: '/forgot-password' as const, hash: url?.hash })
   },
-  "map": {
-    $url: (url?: { hash?: string }) => ({ pathname: '/map' as const, hash: url?.hash })
+  "index": {
+    $url: (url?: { hash?: string }) => ({ pathname: '/index' as const, hash: url?.hash })
   },
   "notification": {
     $url: (url?: { hash?: string }) => ({ pathname: '/notification' as const, hash: url?.hash })
@@ -19,8 +19,7 @@ export const pagesPath = {
   },
   "sign_up": {
     $url: (url?: { hash?: string }) => ({ pathname: '/sign-up' as const, hash: url?.hash })
-  },
-  $url: (url?: { hash?: string }) => ({ pathname: '/' as const, hash: url?.hash })
+  }
 }
 
 export type PagesPath = typeof pagesPath
