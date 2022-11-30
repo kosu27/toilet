@@ -756,12 +756,12 @@
     "@mantine/ssr" "5.5.4"
     "@mantine/styles" "5.5.4"
 
-"@mantine/notifications@5.5.4":
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-5.5.4.tgz#da06b82de4b6a757ab4fef76bf14b0a73e66a14a"
-  integrity sha512-icX+uhGE+5DmZFPfcxLdjetyJhDzy1HtDT+F4Z898EJoFasHZZrd9dcOpc9wxESe73aHR1UsiEsJQz3wllKqUg==
+"@mantine/notifications@5.8.4":
+  version "5.8.4"
+  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-5.8.4.tgz#87a7edba7e39393226cb9b5a385c4f45afff94b9"
+  integrity sha512-NquuUhSg52Gnkdrh4xpj9ZeFdN5H0U5v1BWJNSCxGmjUPbqm9/IEV690Se2Z1vHYL0wO+c8wpy6ixe/T3tRRJg==
   dependencies:
-    "@mantine/utils" "5.5.4"
+    "@mantine/utils" "5.8.4"
     react-transition-group "4.4.2"
 
 "@mantine/ssr@5.5.4":
@@ -787,11 +787,6 @@
   dependencies:
     clsx "1.1.1"
     csstype "3.0.9"
-
-"@mantine/utils@5.5.4":
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/@mantine/utils/-/utils-5.5.4.tgz#4cea84cfbe16ac04b9b407b4215c66d606c702f3"
-  integrity sha512-EO0iD99wfvKC09WHpCXrqb5ewTmuYf4GeNR3xOtecNaXNbFUVxmlV6wwhsJ61YScy+7bM1lplwNvkGz5CF0v7Q==
 
 "@mantine/utils@5.8.4":
   version "5.8.4"
