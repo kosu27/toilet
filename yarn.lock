@@ -748,13 +748,13 @@
   resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-5.8.4.tgz#688aae3222e6898aca12dfdbe3fe03fa4c2dd7f4"
   integrity sha512-LoZvZimikIZmdn+0BRvzNp6Dm2NI9h9ccxliP3NTYfDd57kc+054Lef9ZTWuXD+ZIg8vz7s648fzFwAv6ArJyA==
 
-"@mantine/next@5.5.4":
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-5.5.4.tgz#1c0da5c72db251dac0e1a9147e271de095f6aa8a"
-  integrity sha512-7vVZEyW4rN7O1ytVT0mW7jnsd7GkcFwphdvXJq6sa8pzWvOUpIo5uG2zsIzoxxv27mjhfF1bxIolL0vAdwgfwA==
+"@mantine/next@5.8.4":
+  version "5.8.4"
+  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-5.8.4.tgz#5f125f10eb467fed599a6a9598ba55719c388d02"
+  integrity sha512-iUwbu+W+8lSls0ApdvVB8iFVwT5RECCJWC4qVJUNda9pZy+mxGXMp6P6IE0VW3qZio2GaZs8Hv0aT5BdduMxCQ==
   dependencies:
-    "@mantine/ssr" "5.5.4"
-    "@mantine/styles" "5.5.4"
+    "@mantine/ssr" "5.8.4"
+    "@mantine/styles" "5.8.4"
 
 "@mantine/notifications@5.5.4":
   version "5.5.4"
@@ -764,21 +764,13 @@
     "@mantine/utils" "5.5.4"
     react-transition-group "4.4.2"
 
-"@mantine/ssr@5.5.4":
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-5.5.4.tgz#61dbd84ad0bc8927c0d3b868bcb00a51727e4de1"
-  integrity sha512-WkT6GkeiFS3DAEWV3vZlOUoRIqJnJHP1TgOioLxWqsCuXI3h3V+AxiOHk4+G1PB4EXwHWdoJgK3UoU91pC2NsQ==
+"@mantine/ssr@5.8.4":
+  version "5.8.4"
+  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-5.8.4.tgz#78f59dfa9121e6b2fb528f5b435224fa9c796a2c"
+  integrity sha512-6ipFcIIaZMVxMpax0N/Sa8mXPHG5s1tWxXHkni6ro354GZ1Wi3nlGv2RYxI81vjIyIpCJDz+qpwYynoTBN2cLw==
   dependencies:
-    "@mantine/styles" "5.5.4"
+    "@mantine/styles" "5.8.4"
     html-react-parser "1.4.12"
-
-"@mantine/styles@5.5.4":
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-5.5.4.tgz#53cdb808f652d11265b6b8e99d99d6f03a5db5e4"
-  integrity sha512-Mf1vFMoiF+VYPgohGHE6/5h9mefNK78y7LrTwAhfbxYPys6gjorSrXURg5j1b/9TS9hCBF+rxTmfnOpAPWzaHw==
-  dependencies:
-    clsx "1.1.1"
-    csstype "3.0.9"
 
 "@mantine/styles@5.8.4":
   version "5.8.4"
